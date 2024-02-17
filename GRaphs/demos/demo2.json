@@ -1,0 +1,25 @@
+{
+	"bpm": 80,
+	"decay_factor": "0.1",
+	"graphs": [
+		{
+			"path": "demos/drums.json",
+			"musicians": [
+				{
+					"port": 0,
+					"channel": 9
+				}
+			]
+		},
+		{
+			"path": "demos/hi_hats.json",
+			"nb_composers": 4,
+			"musicians": [
+				{
+					"port": 0,
+					"channel": 9
+				}
+			]
+		}
+	]
+}

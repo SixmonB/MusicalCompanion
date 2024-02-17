@@ -1,0 +1,40 @@
+{
+	"bpm": 120,
+	"decay_factor": "0.02",
+	"main_graph": 2,
+	"graphs": [
+		{
+			"path": "demos/drums.json",
+			"musicians": [
+				{
+					"type": "musician",
+					"port": 0,
+					"channel": 9
+				}
+			]
+		},
+		{
+			"path": "demos/hi_hats.json",
+			"nb_composers": 10,
+			"musicians": [
+				{
+					"port": 0,
+					"channel": 9
+				}
+			]
+		},
+		{
+			"path": "demos/melody.json",
+			"user": {
+				"port": 0,
+				"channel": 0
+			},
+			"musicians": [
+				{
+					"port": 0,
+					"channel": 0
+				}
+			]
+		}
+	]
+}

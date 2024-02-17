@@ -1,0 +1,35 @@
+{
+	"bpm": 122,
+	"decay_factor": "0.1",
+	"main_graph": 1,
+	"graphs": [
+		{
+			"path": "demos/drums.json",
+			"ants": [
+				{
+					"type": "musician",
+					"port": 0,
+					"channel": 9
+				}
+			]
+		},
+		{
+			"path": "base.json",
+			"ants": [
+				{
+					"type": "musician",
+					"port": 0,
+					"channel": 0
+				},
+				{
+					"type": "user",
+					"port": 0,
+					"channel": 0
+				},
+				{
+					"type": "compositor"
+				}
+			]
+		}
+	]
+}

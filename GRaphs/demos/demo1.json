@@ -1,0 +1,15 @@
+{
+	"bpm": 122,
+	"decay_factor": "0.1",
+	"graphs": [
+		{
+			"path": "demos/metronome.json",
+			"musicians": [
+				{
+					"port": 0,
+					"channel": 9
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"name": "Beat",
+	"nodes": [
+		{
+			"id": "n0",
+			"type": "note",
+			"note": 49,
+			"velocity": 80,
+			"duration": 1
+		},
+		{
+			"id": "n1",
+			"type": "note",
+			"note": 49,
+			"velocity": 80,
+			"duration": 1
+		},
+		{
+			"id": "n2",
+			"type": "note",
+			"note": 49,
+			"velocity": 80,
+			"duration": 1
+		},
+		{
+			"id": "n3",
+			"type": "note",
+			"note": 49,
+			"velocity": 80,
+			"duration": 1
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"originID": 0,
+			"destinationID": 1,
+			"weight": 1
+		},
+		{
+			"id": "e1",
+			"originID": 1,
+			"destinationID": 2,
+			"weight": 1
+		},
+		{
+			"id": "e2",
+			"originID": 2,
+			"destinationID": 3,
+			"weight": 1
+		},
+		{
+			"id": "e3",
+			"originID": 3,
+			"destinationID": 0,
+			"weight": 1
+		}
+	]
+}

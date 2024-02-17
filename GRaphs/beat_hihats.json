@@ -1,0 +1,57 @@
+{
+	"name": "Beat-HiHats",
+	"nodes": [
+		{
+			"id": "n1",
+			"type": "note",
+			"note": 49,
+			"velocity": 80,
+			"position": 0,
+			"duration": 1
+		},
+		{
+			"id": "n2",
+			"type": "note",
+			"note": 49,
+			"velocity": 80,
+			"position": 1,
+			"duration": 1
+		},
+		{
+			"id": "n3",
+			"type": "note",
+			"note": 49,
+			"velocity": 80,
+			"position": 2,
+			"duration": 1
+		},
+		{
+			"id": "n4",
+			"type": "note",
+			"note": 49,
+			"velocity": 80,
+			"position": 3,
+			"duration": 1
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"originID": 1,
+			"destinationID": 2,
+			"weight": 1
+		},
+		{
+			"id": "e1",
+			"originID": 2,
+			"destinationID": 3,
+			"weight": 1
+		},
+		{
+			"id": "e2",
+			"originID": 3,
+			"destinationID": 4,
+			"weight": 1
+		}
+	]
+}

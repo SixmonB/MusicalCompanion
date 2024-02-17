@@ -1,0 +1,9 @@
+Pour le SPRINT 0
+- cloner le git
+- Installer les dépendances (mido et rtmidi)
+- Tester l'existence d'un port MIDI sur vos machines (voir les exemples dans le répertoire StartingPoint). En théorie vous n'aurez qu'un port de sortie qui sera votre carte son
+- Test la détection du AKAI MPX16 comme un port MIDI. En théorie vous aurez un port d'entrée et un port de sortie. Le port d'entrée permettra de capter des évenements venant du MPC16 et le port de sortie permettra de lui faire jouer des notes
+- Vous documenter sur la normoe MIDI : https://www.midi.org/specifications-old/category/reference-tables
+- Vous documenter sur MIDO -> savoir déclencher une note, l'arrêter, changer le son (program change)
+- Lire un fichier midi d'abord avec la fonction play() de mido puis en récupérant les notes une par une pour simuler un joueur "en temps réel" 
+- Lire et analyser l'article : ClaMonSli13a.tsi_draft.pdf (dans le répertoire StartingPoint)

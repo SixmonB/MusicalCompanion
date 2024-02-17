@@ -1,0 +1,138 @@
+{
+	"name": "Simple Melody",
+	"loop_duration": 4,
+	"nodes": [
+		{
+			"id": "n1",
+			"type": "note",
+			"note": 60,
+			"velocity": 80,
+			"position": 0,
+			"duration": 1
+		},
+		{
+			"id": "n2",
+			"type": "note",
+			"note": 64,
+			"velocity": 80,
+			"position": 1,
+			"duration": 1
+		},
+		{
+			"id": "n3",
+			"type": "note",
+			"note": 67,
+			"velocity": 80,
+			"position": 2,
+			"duration": 1
+		},
+		{
+			"id": "n4",
+			"type": "note",
+			"note": 71,
+			"velocity": 80,
+			"position": 3,
+			"duration": 1
+		},
+		{
+			"id": "n5",
+			"type": "note",
+			"note": 62,
+			"velocity": 80,
+			"position": 0,
+			"duration": 1
+		},
+		{
+			"id": "n6",
+			"type": "note",
+			"note": 65,
+			"velocity": 80,
+			"position": 1,
+			"duration": 1
+		},
+		{
+			"id": "n7",
+			"type": "note",
+			"note": 69,
+			"velocity": 80,
+			"position": 2,
+			"duration": 1
+		},
+		{
+			"id": "n8",
+			"type": "note",
+			"note": 72,
+			"velocity": 80,
+			"position": 3,
+			"duration": 1
+		}
+	],
+	"edges": [
+		{
+			"id": "e1",
+			"originID": 1,
+			"destinationID": 2,
+			"weight": 0.3
+		},
+		{
+			"id": "e2",
+			"originID": 2,
+			"destinationID": 3,
+			"weight": 0.7
+		},
+		{
+			"id": "e3",
+			"originID": 3,
+			"destinationID": 4,
+			"weight": 1
+		},
+		{
+			"id": "e5",
+			"originID": 5,
+			"destinationID": 6,
+			"weight": 0.7
+		},
+		{
+			"id": "e6",
+			"originID": 6,
+			"destinationID": 7,
+			"weight": 1
+		},
+		{
+			"id": "e7",
+			"originID": 7,
+			"destinationID": 8,
+			"weight": 1
+		},
+		{
+			"id": "e8",
+			"originID": 4,
+			"destinationID": 1,
+			"weight": 0.5
+		},
+		{
+			"id": "e9",
+			"originID": 4,
+			"destinationID": 5,
+			"weight": 0.5
+		},
+		{
+			"id": "e10",
+			"originID": 8,
+			"destinationID": 1,
+			"weight": 0.5
+		},
+		{
+			"id": "e11",
+			"originID": 8,
+			"destinationID": 5,
+			"weight": 0.5
+		},
+		{
+			"id": "e12",
+			"originID": 1,
+			"destinationID": 4,
+			"weight": 0.5
+		}
+	]
+}

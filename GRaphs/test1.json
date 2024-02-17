@@ -1,0 +1,76 @@
+{
+
+    "name": "Lettre à Elise",
+
+    "nodes": [{
+        "id" : "n1",
+        "type" : "note",
+        "note" : 80,
+        "velocity": 127,
+        "duration": 5
+    },
+    {
+        "id" : "n2",
+        "type" : "note",
+        "note" : 64,
+        "velocity": 100,
+        "duration": 5
+    },
+    {
+        "id" : "n3",
+        "type" : "note",
+        "note" : 67,
+        "velocity": 80,
+        "duration": 5
+    },
+    {
+        "id" : "n4",
+        "type" : "note",
+        "note" : 90,
+        "velocity": 110,
+        "duration": 5
+    }
+
+],
+
+    "edges": [
+        {
+            "id" : "e1",
+            "originID" : 1,
+            "destinationID" : 2,
+            "weight" : 0.3
+    },
+        {
+            "id" : "e2",
+            "originID" : 1,
+            "destinationID" : 3,
+            "weight" : 0.7
+    },
+        {
+            "id" : "e3",
+            "originID" : 2,
+            "destinationID" : 3,
+            "weight" : 1
+    },
+        {
+            "id" : "e4",
+            "originID" : 3,
+            "destinationID" : 4,
+            "weight" : 0.5
+    },
+        {
+            "id" : "e5",
+            "originID" : 3,
+            "destinationID" : 1,
+            "weight" : 0.5
+    },
+        {
+            "id" : "e6",
+            "originID" : 4,
+            "destinationID" : 1,
+            "weight" : 1
+    }
+]
+
+
+}

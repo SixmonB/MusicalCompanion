@@ -1,0 +1,15 @@
+{
+	"name": "Melody",
+	"loop_duration": 8,
+	"nodes": [
+		{
+			"id": "n1",
+			"type": "note",
+			"note": 60,
+			"velocity": 80,
+			"position": 0,
+			"duration": 1
+		}
+	],
+	"edges": []
+}
